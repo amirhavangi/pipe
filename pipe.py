@@ -1,5 +1,5 @@
 from pygame import *
-from pygame import gfxdraw
+import pygame.gfxdraw as gfxdraw
 from random import sample,choice
 import copy
 from ai import HowToReturnPath
